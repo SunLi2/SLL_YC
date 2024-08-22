@@ -22,7 +22,7 @@ public interface CigaretteMapper {
      * @param productCode 卷烟代码
      * @return Cigarette
      */
-    @Select("select * from cigarette where product_code = #{productCode}")
+
     Cigarette getByCode(String productCode);
 
     /**
@@ -30,6 +30,6 @@ public interface CigaretteMapper {
      * @param productCode
      * @return
      */
-    @Select("select * from cigarette where product_code = #{productCode}")
+ 
     Cigarette getInfo(String productCode);
 }
