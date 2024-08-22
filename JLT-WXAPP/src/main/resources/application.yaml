@@ -14,7 +14,7 @@ spring:
     cache: false
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://${jlt.db.host}:${jlt.db.port}/jlt?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql:
     username: root
     password: ${jlt.db.pw}
   servlet:
@@ -54,13 +54,13 @@ feign:
 aliyun:
   oss:
     # oss对外服务的访问域名
-    endpoint: oss-cn-shenzhen.aliyuncs.com
+    endpoint: 
     # 访问身份验证中用到用户标识
-    accessKeyId: LTAI5tGX2dGDBsXU3kiiz4ip
+    accessKeyId: 
     # 用户用于加密签名字符串和oss用来验证签名字符串的密钥
-    accessKeySecret: mFIDCT4n5VA9EdozeYDUHRc6FjjRng
+    accessKeySecret: 
     # oss的存储空间
-    bucketName: zsc9528
+    bucketName: 
     # 上传文件大小(M)
     maxSize: 20
     # 上传文件夹路径前缀
@@ -76,7 +76,7 @@ mybatis:
 
 external:
   api:
-    url: http://172.16.18.59:8080/api/proxy/invoke
+    url: 
 
 imgloc:
   upload:
@@ -100,7 +100,7 @@ knife4j:
   openapi:
     title: 价利通微信小程序后端接口文档
     description: "前端接口文档"
-    concat: 中山学院
+    concat: 
     version: v1.0.0
     group:
       default:
@@ -111,6 +111,6 @@ knife4j:
 
 jlt:
   jwt:
-    secret-key: ukc8BDaRigUDaY6pZffWhs2jZWLPHO
-    ttl: 86400000
+    secret-key: 
+    ttl: 
     token-name: JLT
