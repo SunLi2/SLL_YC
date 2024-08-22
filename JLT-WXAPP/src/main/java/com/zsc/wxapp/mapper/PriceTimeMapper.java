@@ -20,7 +20,7 @@ public interface PriceTimeMapper {
      * @param date 日期
      * @return List<PriceTime>
      */
-    @Select("select * from price_time where create_time = #{date}")
+   
     List<PriceTime> getPriceTime(LocalDate date);
 
     /**
@@ -43,7 +43,7 @@ public interface PriceTimeMapper {
      * @param date
      * @return
      */
-    @Select("select * from price_time where product_name = #{name} and create_time = #{date} limit 1")
+   
     PriceTime getLastPriceTime(String name, LocalDate date);
 
     /**
@@ -51,7 +51,7 @@ public interface PriceTimeMapper {
      * @param id
      * @return
      */
-    @Select("select product_name from price_time where id = #{id} limit 1")
+
     String getPriceTimeById(Integer id);
 
     /**
@@ -59,6 +59,6 @@ public interface PriceTimeMapper {
      * @param productName
      * @return
      */
-    @Select("select * from price_time where product_name = #{productName} order by create_time asc")
+
     List<PriceTime> getPriceTimeList(String productName);
 }
