@@ -11,7 +11,7 @@
 
 ## 技术栈
 
-- 后端：Java, Spring Boot， MybatisPlus
+- 后端：Java, Spring Boot，MybatisPlus，分布式事务
 - 数据库：MySQL, 设计了本地数据库
 - 深度学习模型：调用现有深度学习模型接口
 - 前端：微信小程序
