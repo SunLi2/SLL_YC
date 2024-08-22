@@ -1,0 +1,27 @@
+<!DOCTYPE html >
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>中山烟草管理系统后台登录</title>
+		<link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+		<link th:href="@{/css/signin.css}" rel="stylesheet">
+	</head>
+
+	<body class="text-center">
+		<form class="form-signin" th:action="@{/login}" method="post">
+			<img class="mb-4" th:src="@{/img/tobacco.svg}" alt="" width="72" height="72">
+			<h1 class="h5 mb-3 font-weight-normal">中山烟草管理系统后台登录</h1>
+			<p style="color: #ff0000" th:text="${msg}" th:if="${not #strings.isEmpty(msg)}"></p>
+			<input type="text" class="form-control" name="userid" placeholder="请输入管理员账号" >
+
+			<input type="password" class="form-control" name="password" placeholder="请输入管理员密码" >
+
+			<button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
+		</form>
+	</body>
+
+</html>
+
+

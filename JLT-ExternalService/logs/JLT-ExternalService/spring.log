@@ -1,0 +1,36 @@
+2024-08-18 16:08:40 [main] INFO  c.z.e.JltExternalServiceApplicationTests - Starting JltExternalServiceApplicationTests using Java 1.8.0_321 on LAPTOP-LFLPN0L4 with PID 48956 (started by kae in C:\work\smoke\code\JLT_SpringBootV20240817kuang\JLT_SpringBootV20240817\JLT_SpringBootV--0817kuang\JLT_SpringBoot\JLT\JLT-ExternalService)
+2024-08-18 16:08:40 [main] DEBUG c.z.e.JltExternalServiceApplicationTests - Running with Spring Boot v2.7.12, Spring v5.3.27
+2024-08-18 16:08:40 [main] INFO  c.z.e.JltExternalServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-08-18 16:08:40 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3a0d172f
+2024-08-18 16:08:40 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\work\smoke\code\JLT_SpringBootV20240817kuang\JLT_SpringBootV20240817\JLT_SpringBootV--0817kuang\JLT_SpringBoot\JLT\JLT-ExternalService\target\classes\com\zsc\externalservice\mapper\CustomerMapper.class]
+2024-08-18 16:08:40 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\work\smoke\code\JLT_SpringBootV20240817kuang\JLT_SpringBootV20240817\JLT_SpringBootV--0817kuang\JLT_SpringBoot\JLT\JLT-ExternalService\target\classes\com\zsc\externalservice\mapper\PriceTagMapper.class]
+2024-08-18 16:08:40 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'customerMapper' and 'com.zsc.externalservice.mapper.CustomerMapper' mapperInterface
+2024-08-18 16:08:40 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'customerMapper'.
+2024-08-18 16:08:40 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'priceTagMapper' and 'com.zsc.externalservice.mapper.PriceTagMapper' mapperInterface
+2024-08-18 16:08:40 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'priceTagMapper'.
+2024-08-18 16:08:41 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2024-08-18 16:08:41 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-08-18 16:08:41 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2024-08-18 16:08:41 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 9 mappings in 'requestMappingHandlerMapping'
+2024-08-18 16:08:41 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-08-18 16:08:41 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-08-18 16:08:42 [main] INFO  c.z.e.JltExternalServiceApplicationTests - Started JltExternalServiceApplicationTests in 2.321 seconds (JVM running for 3.078)
+2024-08-18 16:08:42 [SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@3a0d172f, started on Sun Aug 18 16:08:40 CST 2024
+2024-08-18 16:10:54 [main] INFO  c.z.e.JltExternalServiceApplicationTests - Starting JltExternalServiceApplicationTests using Java 1.8.0_321 on LAPTOP-LFLPN0L4 with PID 51520 (started by kae in C:\work\smoke\code\JLT_SpringBootV20240817kuang\JLT_SpringBootV20240817\JLT_SpringBootV--0817kuang\JLT_SpringBoot\JLT\JLT-ExternalService)
+2024-08-18 16:10:54 [main] DEBUG c.z.e.JltExternalServiceApplicationTests - Running with Spring Boot v2.7.12, Spring v5.3.27
+2024-08-18 16:10:54 [main] INFO  c.z.e.JltExternalServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-08-18 16:10:54 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@485e36bc
+2024-08-18 16:10:55 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\work\smoke\code\JLT_SpringBootV20240817kuang\JLT_SpringBootV20240817\JLT_SpringBootV--0817kuang\JLT_SpringBoot\JLT\JLT-ExternalService\target\classes\com\zsc\externalservice\mapper\CustomerMapper.class]
+2024-08-18 16:10:55 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\work\smoke\code\JLT_SpringBootV20240817kuang\JLT_SpringBootV20240817\JLT_SpringBootV--0817kuang\JLT_SpringBoot\JLT\JLT-ExternalService\target\classes\com\zsc\externalservice\mapper\PriceTagMapper.class]
+2024-08-18 16:10:55 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'customerMapper' and 'com.zsc.externalservice.mapper.CustomerMapper' mapperInterface
+2024-08-18 16:10:55 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'customerMapper'.
+2024-08-18 16:10:55 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'priceTagMapper' and 'com.zsc.externalservice.mapper.PriceTagMapper' mapperInterface
+2024-08-18 16:10:55 [main] DEBUG o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'priceTagMapper'.
+2024-08-18 16:10:55 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified.
+2024-08-18 16:10:56 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-08-18 16:10:56 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2024-08-18 16:10:56 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 9 mappings in 'requestMappingHandlerMapping'
+2024-08-18 16:10:56 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-08-18 16:10:56 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-08-18 16:10:56 [main] INFO  c.z.e.JltExternalServiceApplicationTests - Started JltExternalServiceApplicationTests in 1.882 seconds (JVM running for 2.529)
+2024-08-18 16:10:56 [SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@485e36bc, started on Sun Aug 18 16:10:54 CST 2024

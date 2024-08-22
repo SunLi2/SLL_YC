@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zsc.wxapp.mapper.CigaretteMapper">
+
+    <insert id="insert">
+        insert into cigarette (product_name, url, direct_retail_price, whole_sale_price, gross_profit_margin,
+                               place_of_origin, entry_time, price_type, is_on_sale, factory_name,
+                               tar_qty, nicotine_qty, product_style, package_qty, package_qty2, selling_points, product_code)
+        value (#{productName}, #{url}, #{directRetailPrice}, #{wholeSalePrice}, #{grossProfitMargin}, #{placeOfOrigin},
+               #{entryTime}, #{priceType}, #{isOnSale},#{factoryName}, #{tarQty}, #{nicotineQty}, #{productStyle},
+               #{packageQty}, #{packageQty2}, #{sellingPoints}, #{productCode})
+    </insert>
+
+</mapper>

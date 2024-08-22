@@ -1,0 +1,704 @@
+06:13:28:304  INFO 26840 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Starting ImagesBedApplication using Java 17.0.11 with PID 26840 (D:\Environment\JLT\JLT_SpringBoot\JLT\JLT-ImagesBed\target\classes started by chenkuan in D:\Environment\JLT\JLT_SpringBoot\JLT)
+06:13:28:312 DEBUG 26840 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Running with Spring Boot v3.0.2, Spring v6.0.4
+06:13:28:312  INFO 26840 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : No active profile set, falling back to 1 default profile: "default"
+06:13:28:340  INFO 26840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+06:13:28:340  INFO 26840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+06:13:28:799  INFO 26840 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+06:13:28:804  INFO 26840 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+06:13:28:805  INFO 26840 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+06:13:28:871  INFO 26840 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+06:13:28:872  INFO 26840 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 532 ms
+06:13:28:904  INFO 26840 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.zsc.imagesbed.controller.UploadController.Save_Upload_image_Path
+06:14:25:962 DEBUG 26840 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+06:14:25:976  INFO 26840 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+06:14:26:000 DEBUG 26840 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 23 mappings in 'requestMappingHandlerMapping'
+06:14:26:005 DEBUG 26840 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+06:14:26:008 DEBUG 26840 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+06:14:26:023  WARN 26840 --- [restartedMain] o.thymeleaf.templatemode.TemplateMode    : [THYMELEAF][restartedMain] Unknown Template Mode 'HTML5'. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
+06:14:26:050  INFO 26840 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+06:14:26:066  INFO 26840 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+06:14:26:070  INFO 26840 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Started ImagesBedApplication in 58.012 seconds (process running for 58.41)
+07:42:52:930  INFO 31376 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Starting ImagesBedApplication using Java 17.0.11 with PID 31376 (D:\Environment\JLT\JLT_SpringBoot\JLT\JLT-ImagesBed\target\classes started by chenkuan in D:\Environment\JLT\JLT_SpringBoot\JLT)
+07:42:52:931 DEBUG 31376 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Running with Spring Boot v3.0.2, Spring v6.0.4
+07:42:52:931  INFO 31376 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : No active profile set, falling back to 1 default profile: "default"
+07:42:52:957  INFO 31376 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+07:42:52:957  INFO 31376 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+07:42:53:413  INFO 31376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+07:42:53:418  INFO 31376 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+07:42:53:419  INFO 31376 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+07:42:53:458  INFO 31376 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+07:42:53:458  INFO 31376 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 501 ms
+07:42:53:487  INFO 31376 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.zsc.imagesbed.controller.UploadController.Save_Upload_image_Path
+07:43:50:672 DEBUG 31376 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+07:43:50:688  INFO 31376 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+07:43:50:708 DEBUG 31376 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 23 mappings in 'requestMappingHandlerMapping'
+07:43:50:716 DEBUG 31376 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+07:43:50:719 DEBUG 31376 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+07:43:50:732  WARN 31376 --- [restartedMain] o.thymeleaf.templatemode.TemplateMode    : [THYMELEAF][restartedMain] Unknown Template Mode 'HTML5'. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
+07:43:50:765  INFO 31376 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+07:43:50:780  INFO 31376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+07:43:50:784  INFO 31376 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Started ImagesBedApplication in 58.099 seconds (process running for 58.424)
+08:21:04:088  INFO 16720 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Starting ImagesBedApplication using Java 1.8.0_411 on LAPTOP-3PBM11BK with PID 16720 (D:\Environment\JLT\JLT_SpringBoot\JLT\JLT-ImagesBed\target\classes started by chenkuan in D:\Environment\JLT\JLT_SpringBoot\JLT)
+08:21:04:090 DEBUG 16720 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Running with Spring Boot v2.7.12, Spring v5.3.27
+08:21:04:090  INFO 16720 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : No active profile set, falling back to 1 default profile: "default"
+08:21:04:124  INFO 16720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+08:21:04:124  INFO 16720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+08:21:04:759  INFO 16720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+08:21:04:763  INFO 16720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+08:21:04:763  INFO 16720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+08:21:04:804  INFO 16720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+08:21:04:805  INFO 16720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 681 ms
+08:21:04:843  INFO 16720 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.zsc.imagesbed.controller.UploadController.Save_Upload_image_Path
+08:21:04:908 DEBUG 16720 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+08:21:04:920  INFO 16720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+08:21:04:942 DEBUG 16720 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 23 mappings in 'requestMappingHandlerMapping'
+08:21:04:949 DEBUG 16720 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+08:21:04:952 DEBUG 16720 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+08:21:04:965  WARN 16720 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+08:21:04:997  INFO 16720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+08:21:05:012  INFO 16720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+08:21:05:018  INFO 16720 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Started ImagesBedApplication in 1.295 seconds (JVM running for 2.025)
+08:25:22:134  INFO 16720 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:25:22:134  INFO 16720 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+08:25:22:134 DEBUG 16720 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+08:25:22:134 DEBUG 16720 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+08:25:22:134 DEBUG 16720 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+08:25:22:134 DEBUG 16720 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4f63f054
+08:25:22:136 DEBUG 16720 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@15be6417
+08:25:22:136 DEBUG 16720 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+08:25:22:136  INFO 16720 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+08:25:22:141 DEBUG 16720 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+08:25:22:146 DEBUG 16720 --- [http-nio-8088-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.MainController#index()
+08:25:22:158 DEBUG 16720 --- [http-nio-8088-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+08:25:22:473 DEBUG 16720 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:22:512 DEBUG 16720 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/css/bootstrap/cover.css", parameters={}
+08:25:22:512 DEBUG 16720 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/bootstrap/css/bootstrap.min.css", parameters={}
+08:25:22:513 DEBUG 16720 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/js/jquery.min.js", parameters={}
+08:25:22:515 DEBUG 16720 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/bootstrap/js/bootstrap.min.js", parameters={}
+08:25:22:515 DEBUG 16720 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/js/user/clipboard-control.js", parameters={}
+08:25:22:515 DEBUG 16720 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/js/clipboard.js", parameters={}
+08:25:22:516 DEBUG 16720 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/js/user/click-listen.js", parameters={}
+08:25:22:516 DEBUG 16720 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/js/user/drag-and-drop.js", parameters={}
+08:25:22:516 DEBUG 16720 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/js/d-toast.min.js", parameters={}
+08:25:22:516 DEBUG 16720 --- [http-nio-8088-exec-12] o.s.web.servlet.DispatcherServlet        : GET "/js/fantastic-progress-bar-bootstrap.js", parameters={}
+08:25:22:516 DEBUG 16720 --- [http-nio-8088-exec-13] o.s.web.servlet.DispatcherServlet        : GET "/js/axios.min.js", parameters={}
+08:25:22:516 DEBUG 16720 --- [http-nio-8088-exec-12] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+08:25:22:516 DEBUG 16720 --- [http-nio-8088-exec-13] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+08:25:22:516 DEBUG 16720 --- [http-nio-8088-exec-11] o.s.web.servlet.DispatcherServlet        : GET "/js/user/on-paste.js", parameters={}
+08:25:22:517 DEBUG 16720 --- [http-nio-8088-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+08:25:22:517 DEBUG 16720 --- [http-nio-8088-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+08:25:22:517 DEBUG 16720 --- [http-nio-8088-exec-14] o.s.web.servlet.DispatcherServlet        : GET "/js/user/notify.js", parameters={}
+08:25:22:516 DEBUG 16720 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/js/user/common-queue.js", parameters={}
+08:25:22:517 DEBUG 16720 --- [http-nio-8088-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+08:25:22:517 DEBUG 16720 --- [http-nio-8088-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+08:25:22:517 DEBUG 16720 --- [http-nio-8088-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+08:25:22:517 DEBUG 16720 --- [http-nio-8088-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+08:25:22:517 DEBUG 16720 --- [http-nio-8088-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+08:25:22:517 DEBUG 16720 --- [http-nio-8088-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+08:25:22:517 DEBUG 16720 --- [http-nio-8088-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+08:25:22:517 DEBUG 16720 --- [http-nio-8088-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+08:25:22:518 DEBUG 16720 --- [http-nio-8088-exec-11] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+08:25:22:518 DEBUG 16720 --- [http-nio-8088-exec-14] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+08:25:22:538 DEBUG 16720 --- [http-nio-8088-exec-13] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:22:538 DEBUG 16720 --- [http-nio-8088-exec-14] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:22:538 DEBUG 16720 --- [http-nio-8088-exec-12] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:22:539 DEBUG 16720 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:22:539 DEBUG 16720 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:22:539 DEBUG 16720 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:22:539 DEBUG 16720 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:22:539 DEBUG 16720 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:22:538 DEBUG 16720 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:22:539 DEBUG 16720 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:22:539 DEBUG 16720 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:22:539 DEBUG 16720 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:22:539 DEBUG 16720 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:22:540 DEBUG 16720 --- [http-nio-8088-exec-11] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:22:672 DEBUG 16720 --- [http-nio-8088-exec-13] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/getConf?conf=adminOnly", parameters={masked}
+08:25:22:673 DEBUG 16720 --- [http-nio-8088-exec-13] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.admin.api.ConfigAction#getConf(HttpSession, String)
+08:25:22:691 DEBUG 16720 --- [http-nio-8088-exec-13] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+08:25:22:692 DEBUG 16720 --- [http-nio-8088-exec-13] m.m.a.RequestResponseBodyMethodProcessor : Writing ["off"]
+08:25:22:692 DEBUG 16720 --- [http-nio-8088-exec-13] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:22:693 DEBUG 16720 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/getConf?conf=adminOnly", parameters={masked}
+08:25:22:693 DEBUG 16720 --- [http-nio-8088-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.admin.api.ConfigAction#getConf(HttpSession, String)
+08:25:22:694 DEBUG 16720 --- [http-nio-8088-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+08:25:22:694 DEBUG 16720 --- [http-nio-8088-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing ["off"]
+08:25:22:694 DEBUG 16720 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:22:714 DEBUG 16720 --- [http-nio-8088-exec-12] o.s.web.servlet.DispatcherServlet        : GET "/favicon.png", parameters={}
+08:25:22:714 DEBUG 16720 --- [http-nio-8088-exec-12] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+08:25:22:715 DEBUG 16720 --- [http-nio-8088-exec-12] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:28:584 DEBUG 16720 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/upload", parameters={multipart}
+08:25:28:648 DEBUG 16720 --- [http-nio-8088-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.UploadController#upload(MultipartFile, HttpServletRequest, HttpSession)
+08:25:28:759 DEBUG 16720 --- [http-nio-8088-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+08:25:28:759 DEBUG 16720 --- [http-nio-8088-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='/uploadImages/00000001/2024/08/13/08/25/a9b8ef02-7131-482f-9642-457e054ef39c.p (truncated)...]
+08:25:28:792 DEBUG 16720 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:29:399 DEBUG 16720 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/uploadImages/00000001/2024/08/13/08/25/a9b8ef02-7131-482f-9642-457e054ef39c.png", parameters={}
+08:25:29:401 DEBUG 16720 --- [http-nio-8088-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+08:25:29:402 DEBUG 16720 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.png", parameters={}
+08:25:29:404 DEBUG 16720 --- [http-nio-8088-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+08:25:29:407 DEBUG 16720 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:29:408 DEBUG 16720 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:25:29:421 DEBUG 16720 --- [http-nio-8088-exec-14] o.s.web.servlet.DispatcherServlet        : GET "/bootstrap/fonts/glyphicons-halflings-regular.woff2", parameters={}
+08:25:29:424 DEBUG 16720 --- [http-nio-8088-exec-14] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+08:25:29:436 DEBUG 16720 --- [http-nio-8088-exec-14] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+08:53:27:282 DEBUG 16720 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/api/localimagesbed/wx_upload", parameters={multipart}
+08:53:27:309 DEBUG 16720 --- [http-nio-8088-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.JLTController#WX_APP_Upload(MultipartFile, String)
+08:53:27:315 DEBUG 16720 --- [http-nio-8088-exec-10] o.s.web.method.HandlerMethod             : Could not resolve parameter [0] in public com.zsc.imagesbed.result.Result com.zsc.imagesbed.controller.JLTController.WX_APP_Upload(org.springframework.web.multipart.MultipartFile,java.lang.String): Required request part 'file' is not present
+08:53:27:324  WARN 16720 --- [http-nio-8088-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'file' is not present]
+08:53:27:325 DEBUG 16720 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+08:53:27:329 DEBUG 16720 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={multipart}
+08:53:27:329 DEBUG 16720 --- [http-nio-8088-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+08:53:27:340 DEBUG 16720 --- [http-nio-8088-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, application/*+json] and supported [application/json, application/*+json, application/json, application/*+json]
+08:53:27:340 DEBUG 16720 --- [http-nio-8088-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue Aug 13 08:53:27 CST 2024, status=400, error=Bad Request, trace=org.springframework.we (truncated)...]
+08:53:27:347 DEBUG 16720 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400
+08:57:08:143 DEBUG 16720 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/api/localimagesbed/wx_upload?userid=9357", parameters={multipart}
+08:57:08:146 DEBUG 16720 --- [http-nio-8088-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.JLTController#WX_APP_Upload(MultipartFile, String)
+08:57:08:153 DEBUG 16720 --- [http-nio-8088-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+08:57:08:153 DEBUG 16720 --- [http-nio-8088-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='/uploadImages/9357/2024/08/13/08/57/3b26fbf1-4960-41fe-a232-3d83059b92e8.png', (truncated)...]
+08:57:08:153 DEBUG 16720 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:02:53:464  INFO 40420 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Starting ImagesBedApplication using Java 1.8.0_411 on LAPTOP-3PBM11BK with PID 40420 (D:\Environment\JLT\JLT_SpringBoot\JLT\JLT-ImagesBed\target\classes started by chenkuan in D:\Environment\JLT\JLT_SpringBoot\JLT)
+09:02:53:464 DEBUG 40420 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Running with Spring Boot v2.7.12, Spring v5.3.27
+09:02:53:464  INFO 40420 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : No active profile set, falling back to 1 default profile: "default"
+09:02:53:488  INFO 40420 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:02:53:488  INFO 40420 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:02:54:015  INFO 40420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+09:02:54:020  INFO 40420 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+09:02:54:021  INFO 40420 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+09:02:54:061  INFO 40420 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+09:02:54:061  INFO 40420 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 573 ms
+09:02:54:089  INFO 40420 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.zsc.imagesbed.controller.UploadController.Save_Upload_image_Path
+09:02:54:166 DEBUG 40420 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+09:02:54:180  INFO 40420 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+09:02:54:204 DEBUG 40420 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 23 mappings in 'requestMappingHandlerMapping'
+09:02:54:211 DEBUG 40420 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+09:02:54:214 DEBUG 40420 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+09:02:54:226  WARN 40420 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+09:02:54:257  INFO 40420 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+09:02:54:273  INFO 40420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+09:02:54:278  INFO 40420 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Started ImagesBedApplication in 1.035 seconds (JVM running for 1.744)
+09:03:25:380  INFO 40420 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:03:25:380  INFO 40420 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+09:03:25:380 DEBUG 40420 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+09:03:25:380 DEBUG 40420 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+09:03:25:380 DEBUG 40420 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+09:03:25:381 DEBUG 40420 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3ff2caea
+09:03:25:382 DEBUG 40420 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6bb136b9
+09:03:25:382 DEBUG 40420 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+09:03:25:382  INFO 40420 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+09:03:25:387 DEBUG 40420 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+09:03:25:390 DEBUG 40420 --- [http-nio-8088-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.MainController#index()
+09:03:25:397 DEBUG 40420 --- [http-nio-8088-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+09:03:25:577 DEBUG 40420 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:25:739 DEBUG 40420 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/bootstrap/css/bootstrap.min.css", parameters={}
+09:03:25:742 DEBUG 40420 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/css/bootstrap/cover.css", parameters={}
+09:03:25:744 DEBUG 40420 --- [http-nio-8088-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+09:03:25:744 DEBUG 40420 --- [http-nio-8088-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+09:03:25:750 DEBUG 40420 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:25:751 DEBUG 40420 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:25:757 DEBUG 40420 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/js/jquery.min.js", parameters={}
+09:03:25:758 DEBUG 40420 --- [http-nio-8088-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+09:03:25:759 DEBUG 40420 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/bootstrap/js/bootstrap.min.js", parameters={}
+09:03:25:759 DEBUG 40420 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/js/clipboard.js", parameters={}
+09:03:25:759 DEBUG 40420 --- [http-nio-8088-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+09:03:25:759 DEBUG 40420 --- [http-nio-8088-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+09:03:25:759 DEBUG 40420 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/js/user/clipboard-control.js", parameters={}
+09:03:25:759 DEBUG 40420 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:25:759 DEBUG 40420 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/js/user/click-listen.js", parameters={}
+09:03:25:760 DEBUG 40420 --- [http-nio-8088-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+09:03:25:760 DEBUG 40420 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/js/user/common-queue.js", parameters={}
+09:03:25:760 DEBUG 40420 --- [http-nio-8088-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+09:03:25:760 DEBUG 40420 --- [http-nio-8088-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+09:03:25:760 DEBUG 40420 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:25:760 DEBUG 40420 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/js/user/drag-and-drop.js", parameters={}
+09:03:25:760 DEBUG 40420 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:25:760 DEBUG 40420 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:25:760 DEBUG 40420 --- [http-nio-8088-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+09:03:25:761 DEBUG 40420 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:25:761 DEBUG 40420 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/js/user/on-paste.js", parameters={}
+09:03:25:761 DEBUG 40420 --- [http-nio-8088-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+09:03:25:761 DEBUG 40420 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:25:761 DEBUG 40420 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:25:763 DEBUG 40420 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/js/d-toast.min.js", parameters={}
+09:03:25:763 DEBUG 40420 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/js/user/notify.js", parameters={}
+09:03:25:763 DEBUG 40420 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/js/axios.min.js", parameters={}
+09:03:25:763 DEBUG 40420 --- [http-nio-8088-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+09:03:25:763 DEBUG 40420 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/js/fantastic-progress-bar-bootstrap.js", parameters={}
+09:03:25:763 DEBUG 40420 --- [http-nio-8088-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+09:03:25:763 DEBUG 40420 --- [http-nio-8088-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+09:03:25:763 DEBUG 40420 --- [http-nio-8088-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+09:03:25:763 DEBUG 40420 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:25:764 DEBUG 40420 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:25:764 DEBUG 40420 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:25:764 DEBUG 40420 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:25:764 DEBUG 40420 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:25:902 DEBUG 40420 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/getConf?conf=adminOnly", parameters={masked}
+09:03:25:902 DEBUG 40420 --- [http-nio-8088-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.admin.api.ConfigAction#getConf(HttpSession, String)
+09:03:25:912 DEBUG 40420 --- [http-nio-8088-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+09:03:25:912 DEBUG 40420 --- [http-nio-8088-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing ["off"]
+09:03:25:913 DEBUG 40420 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:25:917 DEBUG 40420 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/getConf?conf=adminOnly", parameters={masked}
+09:03:25:917 DEBUG 40420 --- [http-nio-8088-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.admin.api.ConfigAction#getConf(HttpSession, String)
+09:03:25:918 DEBUG 40420 --- [http-nio-8088-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+09:03:25:918 DEBUG 40420 --- [http-nio-8088-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing ["off"]
+09:03:25:918 DEBUG 40420 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:30:453 DEBUG 40420 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/upload", parameters={multipart}
+09:03:30:466 DEBUG 40420 --- [http-nio-8088-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.UploadController#upload(MultipartFile, HttpServletRequest, HttpSession)
+09:03:30:485 DEBUG 40420 --- [http-nio-8088-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+09:03:30:486 DEBUG 40420 --- [http-nio-8088-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='/uploadImages/00000001/2024/08/13/09/03/fbcc00b9-9f8c-484e-ad4b-0b018817a242.p (truncated)...]
+09:03:30:491 DEBUG 40420 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:30:528 DEBUG 40420 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/uploadImages/00000001/2024/08/13/09/03/fbcc00b9-9f8c-484e-ad4b-0b018817a242.png", parameters={}
+09:03:30:528 DEBUG 40420 --- [http-nio-8088-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+09:03:30:529 DEBUG 40420 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:30:570 DEBUG 40420 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/favicon.png", parameters={}
+09:03:30:572 DEBUG 40420 --- [http-nio-8088-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+09:03:30:576 DEBUG 40420 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:30:578 DEBUG 40420 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/bootstrap/fonts/glyphicons-halflings-regular.woff2", parameters={}
+09:03:30:580 DEBUG 40420 --- [http-nio-8088-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+09:03:30:595 DEBUG 40420 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:03:53:308 DEBUG 40420 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/localimagesbed/wx_upload?userid=9357", parameters={multipart}
+09:03:53:310 DEBUG 40420 --- [http-nio-8088-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.JLTController#WX_APP_Upload(MultipartFile, String)
+09:03:53:316 DEBUG 40420 --- [http-nio-8088-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+09:03:53:316 DEBUG 40420 --- [http-nio-8088-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='/uploadImages/9357/2024-08-13_09-03-53_eeb34732-75a8-4ab1-96a8-f7c0cf73208d.pn (truncated)...]
+09:03:53:317 DEBUG 40420 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:12:31:261 DEBUG 40420 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/localimagesbed/wx_upload?userid=9357", parameters={multipart}
+09:12:31:264 DEBUG 40420 --- [http-nio-8088-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.JLTController#WX_APP_Upload(MultipartFile, String)
+09:12:31:266 DEBUG 40420 --- [http-nio-8088-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+09:12:31:266 DEBUG 40420 --- [http-nio-8088-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='/uploadImages/9357/2024-08-13_09-12-31_fa12ca5e-abdd-4916-8e61-c35e21db1876.pn (truncated)...]
+09:12:31:267 DEBUG 40420 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:12:48:583  INFO 40600 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Starting ImagesBedApplication using Java 1.8.0_411 on LAPTOP-3PBM11BK with PID 40600 (D:\Environment\JLT\JLT_SpringBoot\JLT\JLT-ImagesBed\target\classes started by chenkuan in D:\Environment\JLT\JLT_SpringBoot\JLT)
+09:12:48:584 DEBUG 40600 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Running with Spring Boot v2.7.12, Spring v5.3.27
+09:12:48:584  INFO 40600 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : No active profile set, falling back to 1 default profile: "default"
+09:12:48:607  INFO 40600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:12:48:607  INFO 40600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:12:49:108  INFO 40600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+09:12:49:113  INFO 40600 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+09:12:49:113  INFO 40600 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+09:12:49:153  INFO 40600 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+09:12:49:153  INFO 40600 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 546 ms
+09:12:49:185  INFO 40600 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.zsc.imagesbed.controller.UploadController.Save_Upload_image_Path
+09:12:49:253 DEBUG 40600 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+09:12:49:268  INFO 40600 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+09:12:49:294 DEBUG 40600 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 23 mappings in 'requestMappingHandlerMapping'
+09:12:49:302 DEBUG 40600 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+09:12:49:306 DEBUG 40600 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+09:12:49:322  WARN 40600 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+09:12:49:356  INFO 40600 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+09:12:49:373  INFO 40600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+09:12:49:379  INFO 40600 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Started ImagesBedApplication in 1.011 seconds (JVM running for 2.039)
+09:13:06:564  INFO 40600 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:13:06:565  INFO 40600 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+09:13:06:565 DEBUG 40600 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+09:13:06:565 DEBUG 40600 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+09:13:06:565 DEBUG 40600 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+09:13:06:565 DEBUG 40600 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@12ca4cee
+09:13:06:566 DEBUG 40600 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@3220706c
+09:13:06:567 DEBUG 40600 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+09:13:06:567  INFO 40600 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+09:13:06:572 DEBUG 40600 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/localimagesbed/wx_upload?userid=9357", parameters={multipart}
+09:13:06:590 DEBUG 40600 --- [http-nio-8088-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.JLTController#WX_APP_Upload(MultipartFile, String)
+09:13:06:689 DEBUG 40600 --- [http-nio-8088-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+09:13:06:690 DEBUG 40600 --- [http-nio-8088-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='成功保存到本地图床，地址是:IP:端口/uploadImages/9357/2024-08-13_09-13-06_934f6532-d4d4-4139-9 (truncated)...]
+09:13:06:699 DEBUG 40600 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:16:15:497 DEBUG 40600 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/localimagesbed/wx_upload?userid=9357", parameters={multipart}
+09:16:15:808 DEBUG 40600 --- [http-nio-8088-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.JLTController#WX_APP_Upload(MultipartFile, String)
+09:16:15:812 DEBUG 40600 --- [http-nio-8088-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+09:16:15:812 DEBUG 40600 --- [http-nio-8088-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='成功保存到本地图床，地址是:IP:端口/uploadImages/9357/2024-08-13_09-16-15_eba37354-557f-42bd-8 (truncated)...]
+09:16:15:813 DEBUG 40600 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+09:51:37:080  INFO 42352 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Starting ImagesBedApplication using Java 1.8.0_411 on LAPTOP-3PBM11BK with PID 42352 (D:\Environment\JLT\JLT_SpringBoot\JLT\JLT-ImagesBed\target\classes started by chenkuan in D:\Environment\JLT\JLT_SpringBoot\JLT)
+09:51:37:081 DEBUG 42352 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Running with Spring Boot v2.7.12, Spring v5.3.27
+09:51:37:081  INFO 42352 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : No active profile set, falling back to 1 default profile: "default"
+09:51:37:108  INFO 42352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:51:37:108  INFO 42352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:51:37:641  INFO 42352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+09:51:37:646  INFO 42352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+09:51:37:646  INFO 42352 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+09:51:37:682  INFO 42352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+09:51:37:682  INFO 42352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 574 ms
+09:51:37:711  INFO 42352 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.zsc.imagesbed.controller.UploadController.Save_Upload_image_Path
+09:51:37:771 DEBUG 42352 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+09:51:37:785  INFO 42352 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+09:51:37:807 DEBUG 42352 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 23 mappings in 'requestMappingHandlerMapping'
+09:51:37:815 DEBUG 42352 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+09:51:37:818 DEBUG 42352 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+09:51:37:832  WARN 42352 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+09:51:37:866  INFO 42352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+09:51:37:883  INFO 42352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+09:51:37:892  INFO 42352 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Started ImagesBedApplication in 1.056 seconds (JVM running for 1.668)
+10:33:49:529  INFO 35880 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Starting ImagesBedApplication using Java 17.0.11 on LIUCM-2 with PID 35880 (E:\chenkuan\烟盒项目\code\JLT\JLT_SpringBoot\JLT\JLT-ImagesBed\target\classes started by liucm in E:\chenkuan\烟盒项目\code\JLT\JLT_SpringBoot\JLT)
+10:33:49:530 DEBUG 35880 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Running with Spring Boot v2.7.12, Spring v5.3.27
+10:33:49:530  INFO 35880 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : No active profile set, falling back to 1 default profile: "default"
+10:33:49:568  INFO 35880 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:33:49:569  INFO 35880 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+10:33:50:399  INFO 35880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+10:33:50:400  INFO 35880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+10:33:50:400  INFO 35880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+10:33:50:400  INFO 35880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10:33:50:405  INFO 35880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+10:33:50:413  INFO 35880 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+10:33:50:413  INFO 35880 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+10:33:50:464  INFO 35880 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+10:33:50:464  INFO 35880 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 895 ms
+10:33:50:508  INFO 35880 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.zsc.imagesbed.controller.UploadController.Save_Upload_image_Path
+10:33:50:615 DEBUG 35880 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+10:33:50:650  INFO 35880 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+10:33:50:702 DEBUG 35880 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 23 mappings in 'requestMappingHandlerMapping'
+10:33:50:714 DEBUG 35880 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+10:33:50:719 DEBUG 35880 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+10:33:50:751  WARN 35880 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+10:33:50:815  INFO 35880 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+10:33:50:847  INFO 35880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+10:33:50:856  INFO 35880 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Started ImagesBedApplication in 1.69 seconds (JVM running for 2.335)
+10:38:28:851  INFO 35880 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:38:28:851  INFO 35880 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+10:38:28:852 DEBUG 35880 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+10:38:28:852 DEBUG 35880 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+10:38:28:852 DEBUG 35880 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+10:38:28:853 DEBUG 35880 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1ee11faf
+10:38:28:853 DEBUG 35880 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2f2c4bb1
+10:38:28:853 DEBUG 35880 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+10:38:28:853  INFO 35880 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+10:38:28:861 DEBUG 35880 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/localimagesbed/wx_upload?userid=9357", parameters={multipart}
+10:38:28:898 DEBUG 35880 --- [http-nio-8088-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.JLTController#WX_APP_Upload(MultipartFile, String)
+10:38:28:968 DEBUG 35880 --- [http-nio-8088-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+10:38:28:970 DEBUG 35880 --- [http-nio-8088-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='成功保存到本地图床，地址是:IP:端口/uploadImages/9357/2024-08-13_10-38-28_6a62f05b-4f75-4eaa-8 (truncated)...]
+10:38:28:988 DEBUG 35880 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+10:53:45:848 DEBUG 35880 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/localimagesbed/wx_upload?userid=9357", parameters={multipart}
+10:53:45:855 DEBUG 35880 --- [http-nio-8088-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.JLTController#WX_APP_Upload(MultipartFile, String)
+10:53:45:862 DEBUG 35880 --- [http-nio-8088-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+10:53:45:862 DEBUG 35880 --- [http-nio-8088-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='成功保存到本地图床，地址是:IP:端口/uploadImages/9357/2024-08-13_10-53-45_c0d22071-d564-435a-b (truncated)...]
+10:53:45:863 DEBUG 35880 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+12:06:53:675  INFO 42888 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Starting ImagesBedApplication using Java 17.0.11 on LIUCM-2 with PID 42888 (E:\chenkuan\烟盒项目\code\JLT\JLT_SpringBoot\JLT\JLT-ImagesBed\target\classes started by liucm in E:\chenkuan\烟盒项目\code\JLT\JLT_SpringBoot\JLT)
+12:06:53:676 DEBUG 42888 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Running with Spring Boot v2.7.12, Spring v5.3.27
+12:06:53:677  INFO 42888 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : No active profile set, falling back to 1 default profile: "default"
+12:06:53:732  INFO 42888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:06:53:732  INFO 42888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12:06:54:561  INFO 42888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+12:06:54:562  INFO 42888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+12:06:54:562  INFO 42888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+12:06:54:562  INFO 42888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:06:54:568  INFO 42888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+12:06:54:576  INFO 42888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+12:06:54:576  INFO 42888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+12:06:54:630  INFO 42888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+12:06:54:630  INFO 42888 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 897 ms
+12:06:54:676  INFO 42888 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.zsc.imagesbed.controller.UploadController.Save_Upload_image_Path
+12:06:54:781 DEBUG 42888 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+12:06:54:813  INFO 42888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+12:06:54:862 DEBUG 42888 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 23 mappings in 'requestMappingHandlerMapping'
+12:06:54:874 DEBUG 42888 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+12:06:54:880 DEBUG 42888 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+12:06:54:904  WARN 42888 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+12:06:54:969  INFO 42888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+12:06:55:000  INFO 42888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+12:06:55:009  INFO 42888 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Started ImagesBedApplication in 1.739 seconds (JVM running for 2.517)
+13:05:08:991  INFO 42888 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:05:09:002  INFO 42888 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+13:05:09:007 DEBUG 42888 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+13:05:09:008 DEBUG 42888 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+13:05:09:008 DEBUG 42888 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+13:05:09:027 DEBUG 42888 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6495a8cc
+13:05:09:028 DEBUG 42888 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4b8bc2c6
+13:05:09:029 DEBUG 42888 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+13:05:09:029  INFO 42888 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 26 ms
+13:05:09:044 DEBUG 42888 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/localimagesbed/wx_upload?userid=9357", parameters={multipart}
+13:05:09:084 DEBUG 42888 --- [http-nio-8088-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.JLTController#WX_APP_Upload(MultipartFile, String)
+13:05:09:255 DEBUG 42888 --- [http-nio-8088-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+13:05:09:257 DEBUG 42888 --- [http-nio-8088-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='成功保存到本地图床，地址是:IP:端口/uploadImages/9357/2024-08-13_13-05-09_0d5b59c3-1ca2-4b6b-b (truncated)...]
+13:05:09:278 DEBUG 42888 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+13:14:49:280 DEBUG 42888 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/localimagesbed/wx_upload?userid=9357", parameters={multipart}
+13:14:49:284 DEBUG 42888 --- [http-nio-8088-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.JLTController#WX_APP_Upload(MultipartFile, String)
+13:14:49:288 DEBUG 42888 --- [http-nio-8088-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+13:14:49:288 DEBUG 42888 --- [http-nio-8088-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='成功保存到本地图床，地址是:IP:端口/uploadImages/9357/2024-08-13_13-14-49_ca781af6-4bb7-4bfb-a (truncated)...]
+13:14:49:290 DEBUG 42888 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+13:17:22:135 DEBUG 42888 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/api/localimagesbed/wx_upload?userid=9357", parameters={multipart}
+13:17:22:138 DEBUG 42888 --- [http-nio-8088-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.JLTController#WX_APP_Upload(MultipartFile, String)
+13:17:22:142 DEBUG 42888 --- [http-nio-8088-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+13:17:22:142 DEBUG 42888 --- [http-nio-8088-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='成功保存到本地图床，地址是:IP:端口/uploadImages/9357/2024-08-13_13-17-22_b8b3dc57-a744-4578-a (truncated)...]
+13:17:22:143 DEBUG 42888 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+13:20:20:865 DEBUG 42888 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/api/localimagesbed/wx_upload?userid=9357", parameters={multipart}
+13:20:20:868 DEBUG 42888 --- [http-nio-8088-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.JLTController#WX_APP_Upload(MultipartFile, String)
+13:20:20:872 DEBUG 42888 --- [http-nio-8088-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+13:20:20:872 DEBUG 42888 --- [http-nio-8088-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='成功保存到本地图床，地址是:IP:端口/uploadImages/9357/2024-08-13_13-20-20_9ea23dab-93c8-4465-b (truncated)...]
+13:20:20:873 DEBUG 42888 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+13:23:29:145 DEBUG 42888 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/api/localimagesbed/wx_upload?userid=9357", parameters={multipart}
+13:23:29:148 DEBUG 42888 --- [http-nio-8088-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.JLTController#WX_APP_Upload(MultipartFile, String)
+13:23:58:545 DEBUG 42888 --- [http-nio-8088-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+13:23:58:545 DEBUG 42888 --- [http-nio-8088-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='成功保存到本地图床，地址是:IP:端口/uploadImages/9357/2024-08-13_13-23-58_cbc6afaa-da91-4823-9 (truncated)...]
+13:23:58:546 DEBUG 42888 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+13:24:04:042  INFO 15080 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Starting ImagesBedApplication using Java 17.0.11 on LIUCM-2 with PID 15080 (E:\chenkuan\烟盒项目\code\JLT\JLT_SpringBoot\JLT\JLT-ImagesBed\target\classes started by liucm in E:\chenkuan\烟盒项目\code\JLT\JLT_SpringBoot\JLT)
+13:24:04:043 DEBUG 15080 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Running with Spring Boot v2.7.12, Spring v5.3.27
+13:24:04:043  INFO 15080 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : No active profile set, falling back to 1 default profile: "default"
+13:24:04:089  INFO 15080 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:24:04:089  INFO 15080 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:24:05:039  INFO 15080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+13:24:05:040  INFO 15080 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+13:24:05:040  INFO 15080 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13:24:05:040  INFO 15080 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13:24:05:050  INFO 15080 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+13:24:05:059  INFO 15080 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+13:24:05:059  INFO 15080 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+13:24:05:115  INFO 15080 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+13:24:05:115  INFO 15080 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1025 ms
+13:24:05:166  INFO 15080 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.zsc.imagesbed.controller.UploadController.Save_Upload_image_Path
+13:24:05:275 DEBUG 15080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+13:24:05:305  INFO 15080 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+13:24:05:352 DEBUG 15080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 23 mappings in 'requestMappingHandlerMapping'
+13:24:05:364 DEBUG 15080 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+13:24:05:370 DEBUG 15080 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+13:24:05:393  WARN 15080 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+13:24:05:456  INFO 15080 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+13:24:05:487  INFO 15080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+13:24:05:497  INFO 15080 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Started ImagesBedApplication in 1.841 seconds (JVM running for 2.536)
+13:24:10:241  INFO 15080 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:24:10:241  INFO 15080 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+13:24:10:241 DEBUG 15080 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+13:24:10:241 DEBUG 15080 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+13:24:10:241 DEBUG 15080 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+13:24:10:242 DEBUG 15080 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@32d3bf13
+13:24:10:242 DEBUG 15080 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@206bc940
+13:24:10:242 DEBUG 15080 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+13:24:10:242  INFO 15080 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+13:24:10:249 DEBUG 15080 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/localimagesbed/wx_upload?userid=9357", parameters={multipart}
+13:24:10:278 DEBUG 15080 --- [http-nio-8088-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.JLTController#WX_APP_Upload(MultipartFile, String)
+13:26:01:689 DEBUG 15080 --- [http-nio-8088-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+13:26:01:690 DEBUG 15080 --- [http-nio-8088-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='成功保存到本地图床，地址是:IP:端口/uploadImages/9357/2024-08-13_13-25-56_c7d3c211-2ba2-4f6d-8 (truncated)...]
+13:26:01:702 DEBUG 15080 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+13:26:09:362  INFO 5916 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Starting ImagesBedApplication using Java 17.0.11 on LIUCM-2 with PID 5916 (E:\chenkuan\烟盒项目\code\JLT\JLT_SpringBoot\JLT\JLT-ImagesBed\target\classes started by liucm in E:\chenkuan\烟盒项目\code\JLT\JLT_SpringBoot\JLT)
+13:26:09:363 DEBUG 5916 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Running with Spring Boot v2.7.12, Spring v5.3.27
+13:26:09:363  INFO 5916 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : No active profile set, falling back to 1 default profile: "default"
+13:26:09:411  INFO 5916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:26:09:411  INFO 5916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:26:10:236  INFO 5916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+13:26:10:237  INFO 5916 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+13:26:10:237  INFO 5916 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13:26:10:237  INFO 5916 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13:26:10:242  INFO 5916 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+13:26:10:249  INFO 5916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+13:26:10:249  INFO 5916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+13:26:10:307  INFO 5916 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+13:26:10:307  INFO 5916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 895 ms
+13:26:10:352  INFO 5916 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.zsc.imagesbed.controller.UploadController.Save_Upload_image_Path
+13:26:10:457 DEBUG 5916 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+13:26:10:488  INFO 5916 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+13:26:10:527 DEBUG 5916 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 23 mappings in 'requestMappingHandlerMapping'
+13:26:10:540 DEBUG 5916 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+13:26:10:546 DEBUG 5916 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+13:26:10:572  WARN 5916 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+13:26:10:635  INFO 5916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+13:26:10:661  INFO 5916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+13:26:10:669  INFO 5916 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Started ImagesBedApplication in 1.728 seconds (JVM running for 2.408)
+13:26:13:858  INFO 5916 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:26:13:858  INFO 5916 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+13:26:13:859 DEBUG 5916 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+13:26:13:859 DEBUG 5916 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+13:26:13:859 DEBUG 5916 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+13:26:13:860 DEBUG 5916 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1b82f472
+13:26:13:860 DEBUG 5916 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@d81523b
+13:26:13:861 DEBUG 5916 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+13:26:13:861  INFO 5916 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+13:26:13:874 DEBUG 5916 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/localimagesbed/wx_upload?userid=9357", parameters={multipart}
+13:26:13:904 DEBUG 5916 --- [http-nio-8088-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.JLTController#WX_APP_Upload(MultipartFile, String)
+13:28:45:654 DEBUG 5916 --- [http-nio-8088-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+13:28:45:655 DEBUG 5916 --- [http-nio-8088-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='成功保存到本地图床，地址是:IP:端口/uploadImages/9357/2024-08-13_13-26-13_1a954c1a-20a8-45df-a (truncated)...]
+13:28:45:667 DEBUG 5916 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+13:33:09:207  INFO 40348 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Starting ImagesBedApplication using Java 17.0.11 on LIUCM-2 with PID 40348 (E:\chenkuan\烟盒项目\code\JLT\JLT_SpringBoot\JLT\JLT-ImagesBed\target\classes started by liucm in E:\chenkuan\烟盒项目\code\JLT\JLT_SpringBoot\JLT)
+13:33:09:208 DEBUG 40348 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Running with Spring Boot v2.7.12, Spring v5.3.27
+13:33:09:209  INFO 40348 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : No active profile set, falling back to 1 default profile: "default"
+13:33:09:258  INFO 40348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:33:09:259  INFO 40348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:33:10:063  INFO 40348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+13:33:10:064  INFO 40348 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+13:33:10:065  INFO 40348 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13:33:10:065  INFO 40348 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13:33:10:070  INFO 40348 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+13:33:10:077  INFO 40348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+13:33:10:078  INFO 40348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+13:33:10:134  INFO 40348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+13:33:10:134  INFO 40348 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 875 ms
+13:33:10:180  INFO 40348 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.zsc.imagesbed.controller.UploadController.Save_Upload_image_Path
+13:33:10:288 DEBUG 40348 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+13:33:10:320  INFO 40348 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+13:33:10:359 DEBUG 40348 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 23 mappings in 'requestMappingHandlerMapping'
+13:33:10:371 DEBUG 40348 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+13:33:10:376 DEBUG 40348 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+13:33:10:401  WARN 40348 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+13:33:10:464  INFO 40348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+13:33:10:492  INFO 40348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+13:33:10:500  INFO 40348 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Started ImagesBedApplication in 1.689 seconds (JVM running for 2.383)
+13:33:46:427  INFO 40348 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:33:46:427  INFO 40348 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+13:33:46:427 DEBUG 40348 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+13:33:46:427 DEBUG 40348 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+13:33:46:428 DEBUG 40348 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+13:33:46:428 DEBUG 40348 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1b82f472
+13:33:46:429 DEBUG 40348 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@d81523b
+13:33:46:429 DEBUG 40348 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+13:33:46:429  INFO 40348 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+13:33:46:442 DEBUG 40348 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/localimagesbed/wx_upload?userid=9357", parameters={multipart}
+13:33:46:476 DEBUG 40348 --- [http-nio-8088-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.JLTController#WX_APP_Upload(MultipartFile, String)
+13:33:46:527 DEBUG 40348 --- [http-nio-8088-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+13:33:46:528 DEBUG 40348 --- [http-nio-8088-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='成功保存到本地图床，地址是:IP:端口/uploadImages/9357/2024-08-13_13-33-46_a6140815-3ec5-4c69-8 (truncated)...]
+13:33:46:539 DEBUG 40348 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+13:34:47:702 DEBUG 40348 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/uploadImages/9357/2024-08-13_13-33-46_a6140815-3ec5-4c69-8104-7e409c29eafc.jpg", parameters={}
+13:34:47:707 DEBUG 40348 --- [http-nio-8088-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+13:34:47:710 DEBUG 40348 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+13:38:23:487 DEBUG 40348 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/api/localimagesbed/wx_upload?userid=9357", parameters={multipart}
+13:38:23:495 DEBUG 40348 --- [http-nio-8088-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.JLTController#WX_APP_Upload(MultipartFile, String)
+13:38:23:501 DEBUG 40348 --- [http-nio-8088-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+13:38:23:502 DEBUG 40348 --- [http-nio-8088-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='成功保存到本地图床，地址是:IP:端口/uploadImages/9357/2024-08-13_13-38-23_b2292ea2-3bfc-4543-9 (truncated)...]
+13:38:23:502 DEBUG 40348 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+15:17:34:467  INFO 25544 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Starting ImagesBedApplication using Java 1.8.0_321 on LAPTOP-LFLPN0L4 with PID 25544 (C:\work\smoke\后端\JLT_SpringBootV--V2\JLT_SpringBoot\JLT\JLT-ImagesBed\target\classes started by kae in C:\work\smoke\后端\JLT_SpringBootV--V2\JLT_SpringBoot\JLT)
+15:17:34:468 DEBUG 25544 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Running with Spring Boot v2.7.12, Spring v5.3.27
+15:17:34:468  INFO 25544 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : No active profile set, falling back to 1 default profile: "default"
+15:17:34:495  INFO 25544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+15:17:34:496  INFO 25544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+15:17:35:177  INFO 25544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+15:17:35:182  INFO 25544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:17:35:183  INFO 25544 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:17:35:230  INFO 25544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:17:35:230  INFO 25544 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 734 ms
+15:17:35:264  INFO 25544 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.zsc.imagesbed.controller.UploadController.Save_Upload_image_Path
+15:17:35:340 DEBUG 25544 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+15:17:35:353  INFO 25544 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+15:17:35:384 DEBUG 25544 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 23 mappings in 'requestMappingHandlerMapping'
+15:17:35:393 DEBUG 25544 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+15:17:35:396 DEBUG 25544 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+15:17:35:410  WARN 25544 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+15:17:35:447  INFO 25544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+15:17:35:465  INFO 25544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+15:17:35:471  INFO 25544 --- [restartedMain] com.zsc.imagesbed.ImagesBedApplication   : Started ImagesBedApplication in 1.28 seconds (JVM running for 1.828)
+17:01:23:296  INFO 25544 --- [http-nio-8088-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:01:23:298  INFO 25544 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+17:01:23:299 DEBUG 25544 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+17:01:23:299 DEBUG 25544 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+17:01:23:300 DEBUG 25544 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+17:01:23:305 DEBUG 25544 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@46cae15e
+17:01:23:306 DEBUG 25544 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6ed442ce
+17:01:23:307 DEBUG 25544 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+17:01:23:307  INFO 25544 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+17:01:23:316 DEBUG 25544 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/localimagesbed/wx_upload?userid=9357", parameters={multipart}
+17:01:23:334 DEBUG 25544 --- [http-nio-8088-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.JLTController#WX_APP_Upload(MultipartFile, String)
+17:01:23:393 DEBUG 25544 --- [http-nio-8088-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+17:01:23:394 DEBUG 25544 --- [http-nio-8088-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='成功保存到本地图床，地址是:IP:端口/uploadImages/9357/2024-08-13_17-01-23_7226770e-b5de-4c31-a (truncated)...]
+17:01:23:474 DEBUG 25544 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:01:52:613 DEBUG 25544 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/localimagesbed/wx_upload?userid=9357", parameters={multipart}
+17:01:52:615 DEBUG 25544 --- [http-nio-8088-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.JLTController#WX_APP_Upload(MultipartFile, String)
+17:01:52:618 DEBUG 25544 --- [http-nio-8088-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+17:01:52:618 DEBUG 25544 --- [http-nio-8088-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='成功保存到本地图床，地址是:IP:端口/uploadImages/9357/2024-08-13_17-01-52_33cf9bdd-2b8f-48f5-9 (truncated)...]
+17:01:52:619 DEBUG 25544 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:02:18:257 DEBUG 25544 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/uploadImages/9357/2024-08-13_17-01-52_33cf9bdd-2b8f-48f5-9687-0ee9ae1e5696.png", parameters={}
+17:02:18:260 DEBUG 25544 --- [http-nio-8088-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:02:18:261 DEBUG 25544 --- [http-nio-8088-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+17:02:18:262 DEBUG 25544 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+17:02:18:263 DEBUG 25544 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+17:02:18:264 DEBUG 25544 --- [http-nio-8088-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+17:02:18:275 DEBUG 25544 --- [http-nio-8088-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+17:02:18:278 DEBUG 25544 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+17:02:18:331 DEBUG 25544 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+17:02:18:332 DEBUG 25544 --- [http-nio-8088-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:02:18:333 DEBUG 25544 --- [http-nio-8088-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+17:02:18:333 DEBUG 25544 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+17:02:18:333 DEBUG 25544 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+17:02:18:334 DEBUG 25544 --- [http-nio-8088-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+17:02:18:339 DEBUG 25544 --- [http-nio-8088-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+17:02:18:339 DEBUG 25544 --- [http-nio-8088-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue Aug 13 17:02:18 CST 2024, status=404, error=Not Found, message=No message available,  (truncated)...]
+17:02:18:349 DEBUG 25544 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+17:02:28:735 DEBUG 25544 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/uploadImages/9357/2024-08-13_17-01-52_33cf9bdd-2b8f-48f5-9687-0ee9ae1e5696.png", parameters={}
+17:02:28:737 DEBUG 25544 --- [http-nio-8088-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:02:28:738 DEBUG 25544 --- [http-nio-8088-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+17:02:28:738 DEBUG 25544 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+17:02:28:738 DEBUG 25544 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+17:02:28:739 DEBUG 25544 --- [http-nio-8088-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+17:02:28:743 DEBUG 25544 --- [http-nio-8088-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+17:02:28:744 DEBUG 25544 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+17:02:31:433 DEBUG 25544 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/uploadImages/9357/2024-08-13_17-01-52_33cf9bdd-2b8f-48f5-9687-0ee9ae1e5696.png", parameters={}
+17:02:31:434 DEBUG 25544 --- [http-nio-8088-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:02:31:434 DEBUG 25544 --- [http-nio-8088-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+17:02:31:434 DEBUG 25544 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+17:02:31:435 DEBUG 25544 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+17:02:31:435 DEBUG 25544 --- [http-nio-8088-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+17:02:31:439 DEBUG 25544 --- [http-nio-8088-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+17:02:31:439 DEBUG 25544 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+17:04:02:210 DEBUG 25544 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+17:04:02:211 DEBUG 25544 --- [http-nio-8088-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.MainController#index()
+17:04:02:213 DEBUG 25544 --- [http-nio-8088-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+17:04:02:377 DEBUG 25544 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:04:02:384 DEBUG 25544 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/bootstrap/css/bootstrap.min.css", parameters={}
+17:04:02:385 DEBUG 25544 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/css/bootstrap/cover.css", parameters={}
+17:04:02:386 DEBUG 25544 --- [http-nio-8088-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:04:02:386 DEBUG 25544 --- [http-nio-8088-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:04:02:389 DEBUG 25544 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/bootstrap/js/bootstrap.min.js", parameters={}
+17:04:02:389 DEBUG 25544 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/js/jquery.min.js", parameters={}
+17:04:02:389 DEBUG 25544 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/js/user/clipboard-control.js", parameters={}
+17:04:02:389 DEBUG 25544 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/js/clipboard.js", parameters={}
+17:04:02:389 DEBUG 25544 --- [http-nio-8088-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:04:02:390 DEBUG 25544 --- [http-nio-8088-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:04:02:390 DEBUG 25544 --- [http-nio-8088-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:04:02:390 DEBUG 25544 --- [http-nio-8088-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:04:02:390 DEBUG 25544 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:04:02:392 DEBUG 25544 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:04:02:392 DEBUG 25544 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:04:02:392 DEBUG 25544 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:04:02:392 DEBUG 25544 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/js/user/click-listen.js", parameters={}
+17:04:02:392 DEBUG 25544 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:04:02:392 DEBUG 25544 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:04:02:393 DEBUG 25544 --- [http-nio-8088-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:04:02:394 DEBUG 25544 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/js/user/common-queue.js", parameters={}
+17:04:02:394 DEBUG 25544 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/js/user/drag-and-drop.js", parameters={}
+17:04:02:394 DEBUG 25544 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/js/user/on-paste.js", parameters={}
+17:04:02:394 DEBUG 25544 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/js/user/notify.js", parameters={}
+17:04:02:394 DEBUG 25544 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/js/d-toast.min.js", parameters={}
+17:04:02:395 DEBUG 25544 --- [http-nio-8088-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:04:02:395 DEBUG 25544 --- [http-nio-8088-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:04:02:395 DEBUG 25544 --- [http-nio-8088-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:04:02:395 DEBUG 25544 --- [http-nio-8088-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:04:02:395 DEBUG 25544 --- [http-nio-8088-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:04:02:395 DEBUG 25544 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:04:02:396 DEBUG 25544 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/js/axios.min.js", parameters={}
+17:04:02:397 DEBUG 25544 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:04:02:397 DEBUG 25544 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:04:02:397 DEBUG 25544 --- [http-nio-8088-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:04:02:397 DEBUG 25544 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:04:02:398 DEBUG 25544 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:04:02:398 DEBUG 25544 --- [http-nio-8088-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:04:02:400 DEBUG 25544 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/js/fantastic-progress-bar-bootstrap.js", parameters={}
+17:04:02:401 DEBUG 25544 --- [http-nio-8088-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:04:02:400 DEBUG 25544 --- [http-nio-8088-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:04:02:403 DEBUG 25544 --- [http-nio-8088-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:04:02:442 DEBUG 25544 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/getConf?conf=adminOnly", parameters={masked}
+17:04:02:442 DEBUG 25544 --- [http-nio-8088-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.admin.api.ConfigAction#getConf(HttpSession, String)
+17:04:02:447 DEBUG 25544 --- [http-nio-8088-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+17:04:02:447 DEBUG 25544 --- [http-nio-8088-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing ["off"]
+17:04:02:448 DEBUG 25544 --- [http-nio-8088-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:04:02:449 DEBUG 25544 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/getConf?conf=adminOnly", parameters={masked}
+17:04:02:450 DEBUG 25544 --- [http-nio-8088-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.admin.api.ConfigAction#getConf(HttpSession, String)
+17:04:02:451 DEBUG 25544 --- [http-nio-8088-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+17:04:02:451 DEBUG 25544 --- [http-nio-8088-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing ["off"]
+17:04:02:451 DEBUG 25544 --- [http-nio-8088-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:04:12:191 DEBUG 25544 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/upload", parameters={multipart}
+17:04:12:204 DEBUG 25544 --- [http-nio-8088-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.zsc.imagesbed.controller.UploadController#upload(MultipartFile, HttpServletRequest, HttpSession)
+17:04:12:214 DEBUG 25544 --- [http-nio-8088-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+17:04:12:214 DEBUG 25544 --- [http-nio-8088-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result{code=200, msg='/uploadImages/00000001/2024/08/13/17/04/12e4e77b-6a80-41a5-81ea-fd6a07934fea.j (truncated)...]
+17:04:12:215 DEBUG 25544 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:04:12:226 DEBUG 25544 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/uploadImages/00000001/2024/08/13/17/04/12e4e77b-6a80-41a5-81ea-fd6a07934fea.jpg", parameters={}
+17:04:12:226 DEBUG 25544 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/bootstrap/fonts/glyphicons-halflings-regular.woff2", parameters={}
+17:04:12:226 DEBUG 25544 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/favicon.png", parameters={}
+17:04:12:226 DEBUG 25544 --- [http-nio-8088-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:04:12:226 DEBUG 25544 --- [http-nio-8088-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:04:12:226 DEBUG 25544 --- [http-nio-8088-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:04:12:228 DEBUG 25544 --- [http-nio-8088-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+17:04:12:228 DEBUG 25544 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+17:04:12:228 DEBUG 25544 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+17:04:12:228 DEBUG 25544 --- [http-nio-8088-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:04:12:228 DEBUG 25544 --- [http-nio-8088-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+17:04:12:229 DEBUG 25544 --- [http-nio-8088-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+17:04:12:229 DEBUG 25544 --- [http-nio-8088-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue Aug 13 17:04:12 CST 2024, status=404, error=Not Found, message=No message available,  (truncated)...]
+17:04:12:230 DEBUG 25544 --- [http-nio-8088-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+17:04:12:232 DEBUG 25544 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+17:05:26:767 DEBUG 25544 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/uploadImages/00000001/2024/08/13/17/04/12e4e77b-6a80-41a5-81ea-fd6a07934fea.jpg", parameters={}
+17:05:26:768 DEBUG 25544 --- [http-nio-8088-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+17:05:26:769 DEBUG 25544 --- [http-nio-8088-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+17:05:26:769 DEBUG 25544 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+17:05:26:769 DEBUG 25544 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+17:05:26:769 DEBUG 25544 --- [http-nio-8088-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+17:05:26:777 DEBUG 25544 --- [http-nio-8088-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+17:05:26:777 DEBUG 25544 --- [http-nio-8088-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404

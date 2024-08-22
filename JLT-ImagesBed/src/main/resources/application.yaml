@@ -1,0 +1,49 @@
+server:
+  port: 8088
+  tomcat:
+    max-swallow-size: -1
+# Picuang 图床设置
+#picuang:
+#  upload:
+#    maxFileSize: 20MB  # 单个文件传输文件大小限制
+#    maxRequestSize: 20MB  # 单次传输文件大小限制
+
+
+
+# SpringBoot 配置
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB # 单个文件的最大大小
+      max-request-size: 100MB # 整个请求的最大大小
+  application:
+    name: JLT-ImagesBed
+  devtools:
+    restart:
+      enabled: true  # 支持热部署
+  # Thymeleaf 配置
+  thymeleaf:
+    cache: false  # 关闭 Thymeleaf 的缓存
+    servlet:
+      content-type: text/html  # 设置 Thymeleaf 的类型
+    enabled: true  # 启用 Thymeleaf
+    encoding: UTF-8  # 设置 Thymeleaf 的编码
+    mode: HTML5  # 设置 Thymeleaf 的模式
+    prefix: classpath:/templates/  # 设置 Thymeleaf 的目录前缀
+    suffix: .html  # 设置 Thymeleaf 的目录后缀
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    com.zsc: debug
+    org.mybatis: DEBUG
+    com.mysql.cj: DEBUG
+  pattern:
+    dateformat: HH:mm:ss:SSS
+  file:
+    path: "logs/${spring.application.name}"
+
+# 文件上传大小限制
+spring.servlet.multipart:
+  max-file-size: 5MB
+  max-request-size: 5MB

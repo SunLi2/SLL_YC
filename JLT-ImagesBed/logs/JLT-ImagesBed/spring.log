@@ -1,0 +1,13 @@
+16:08:41:592  INFO 51432 --- [main] c.z.imagesbed.ImagesBedApplicationTests  : Starting ImagesBedApplicationTests using Java 1.8.0_321 on LAPTOP-LFLPN0L4 with PID 51432 (started by kae in C:\work\smoke\code\JLT_SpringBootV20240817kuang\JLT_SpringBootV20240817\JLT_SpringBootV--0817kuang\JLT_SpringBoot\JLT\JLT-ImagesBed)
+16:08:41:597 DEBUG 51432 --- [main] c.z.imagesbed.ImagesBedApplicationTests  : Running with Spring Boot v2.7.12, Spring v5.3.27
+16:08:41:598  INFO 51432 --- [main] c.z.imagesbed.ImagesBedApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+16:08:41:634 DEBUG 51432 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1c3b9394
+16:08:42:423  INFO 51432 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.zsc.imagesbed.controller.UploadController.Save_Upload_image_Path
+16:08:42:790 DEBUG 51432 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+16:08:42:824  INFO 51432 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+16:08:42:887 DEBUG 51432 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 23 mappings in 'requestMappingHandlerMapping'
+16:08:42:920 DEBUG 51432 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+16:08:42:932 DEBUG 51432 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+16:08:42:994  WARN 51432 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+16:08:43:107  INFO 51432 --- [main] c.z.imagesbed.ImagesBedApplicationTests  : Started ImagesBedApplicationTests in 1.916 seconds (JVM running for 2.735)
+16:08:43:446 DEBUG 51432 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@1c3b9394, started on Sun Aug 18 16:08:41 CST 2024

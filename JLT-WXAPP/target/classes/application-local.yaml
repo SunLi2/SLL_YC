@@ -1,0 +1,7 @@
+jlt:
+  wxapp:
+    port: 8080
+  db:
+    host: 127.0.0.1
+    port: 3307
+    pw: 123456

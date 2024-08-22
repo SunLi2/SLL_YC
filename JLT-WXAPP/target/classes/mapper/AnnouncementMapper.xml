@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zsc.wxapp.mapper.AnnouncementMapper">
+
+  <resultMap id="BaseResultMap" type="com.zsc.wxapp.entity.Announcement">
+              <id property="a_uuid" column="a_uuid" />
+              <result property="a_type" column="a_type" />
+              <result property="cigarette_uuid" column="cigarette_uuid" />
+              <result property="a_keyword" column="a_keyword" />
+              <result property="a_title" column="a_title" />
+              <result property="a_content" column="a_content" />
+              <result property="publisher" column="publisher" />
+              <result property="published_time" column="published_time" jdbcType="TIMESTAMP" />
+              <result property="updated_time" column="updated_time" jdbcType="TIMESTAMP" />
+          </resultMap>
+
+          <!-- 查询所有公告 -->
+          <select id="selectAllAnnouncements" resultMap="BaseResultMap">
+              SELECT * FROM announcement
+          </select>
+
+        <select id="findAnnouncementsByType" resultMap="BaseResultMap">
+            SELECT * FROM announcement WHERE a_type = #{a_type}
+        </select>
+          <!-- 根据公告ID查询单个公告 -->
+          <select id="selectAnnouncementByUuid" resultMap="BaseResultMap">
+              SELECT * FROM announcement WHERE a_uuid = #{a_uuid}
+          </select>
+
+          <!-- 插入新公告 -->
+          <insert id="insertAnnouncement" parameterType="Announcement">
+              INSERT INTO announcement
+              (a_uuid, a_type, cigarette_uuid, a_keyword, a_title, a_content, publisher, published_time, updated_time)
+              VALUES
+                  (#{a_uuid}, #{a_type}, #{cigarette_uuid}, #{a_keyword}, #{a_title}, #{a_content}, #{publisher}, #{published_time}, #{updated_time})
+          </insert>
+
+          <!-- 更新公告信息 -->
+          <update id="updateAnnouncement" parameterType="Announcement">
+              UPDATE announcement
+              SET
+                  a_type = #{a_type},
+                  cigarette_uuid = #{cigarette_uuid},
+                  a_keyword = #{a_keyword},
+                  a_title = #{a_title},
+                  a_content = #{a_content},
+                  publisher = #{publisher},
+                  published_time = #{published_time},
+                  updated_time = #{updated_time}
+              WHERE a_uuid = #{a_uuid}
+          </update>
+
+          <!-- 根据公告ID删除公告 -->
+          <delete id="deleteAnnouncementByUuid">
+              DELETE FROM announcement WHERE a_uuid = #{a_uuid}
+          </delete>
+      </mapper>
