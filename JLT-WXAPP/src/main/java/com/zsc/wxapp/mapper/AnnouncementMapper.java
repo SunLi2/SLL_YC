@@ -36,7 +36,7 @@ public interface AnnouncementMapper {
      * 根据key获取该分类的所有公告
      * @return List
      */
-    @Select("select * from announcement where `type` = #{type} order by create_time desc")
+    
     List<Announcement> getByKey(Integer type);
 
     /**
@@ -44,7 +44,7 @@ public interface AnnouncementMapper {
      * @param cigaretteId 卷烟ID
      * @return AnnouncementVO
      */
-    @Select("select * from announcement where cigarette_id = #{cigaretteId}")
+
     List<Announcement> getByCigaretteId(Integer cigaretteId);
 
     /**
@@ -52,6 +52,6 @@ public interface AnnouncementMapper {
      * @param id 公告id
      * @return AnnouncementVO
      */
-    @Select("select * from announcement where id = #{id}")
+
     Announcement getById(Integer id);
 }
