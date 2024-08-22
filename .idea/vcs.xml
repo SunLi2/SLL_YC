@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/JLT-ExternalService" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/JLT-ImagesBed" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/JLT-WXAPP" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ms" vcs="Git" />
-  </component>
-</project>
