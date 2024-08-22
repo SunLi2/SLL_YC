@@ -42,7 +42,7 @@
 - 用户可查询烟草价格变化情况。
 
 ## 项目架构
-
+![image](https://github.com/SunLi2/YanCao/blob/master/structure.png)
 
 ## 许可证
 
