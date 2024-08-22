@@ -1,12 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.zsc.externalservice.mapper.PriceTagMapper">
-
-    <select id="getPriceByNames" resultType="com.zsc.externalservice.entity.Product">
-        select product_name , direct_retail_price , product_uuid from ADS_SJZL_CC_TBC_PRODUCT
-        where product_name in
-        <foreach collection="names" item="name" open="(" separator="," close=")">
-            #{name}
-        </foreach>
-    </select>
-</mapper>
