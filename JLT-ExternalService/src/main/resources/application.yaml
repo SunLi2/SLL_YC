@@ -15,12 +15,12 @@ spring:
     cache: false
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-#    url: jdbc:mysql://172.16.18.59:3306/TobaccoPriceGuidance?serverTimezone=Asia/Shanghai&useUnicode=true&&characterEncoding=utf8
+#    url: jdbc:mysql:******?serverTimezone=Asia/Shanghai&useUnicode=true&&characterEncoding=utf8
 #    username: zsc
 #    password: zsc2024
-    url: jdbc:mysql://172.16.18.59:3307/ods?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8
-    username: zsyc
-    password: ZSyc!@#188..
+    url: jdbc:mysql:*******?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8
+    username: 
+    password: 
 #    cloud:
 #      nacos:
 #        server-addr:127.0.0.1:8848
@@ -41,7 +41,7 @@ mybatis:
 
 external:
   api:
-    url: http://172.16.18.59:8080/api/proxy/invoke
+    url: 
 
 imgloc:
   upload:
